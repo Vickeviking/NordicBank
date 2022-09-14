@@ -28,11 +28,11 @@
                     <Label Content="Login to your account" FontFamily="Georgia" FontWeight="Bold" Width="230" Margin="0 20 0 0" FontSize="18"/>
                     <StackPanel Margin="0 15 0 0" Orientation="Horizontal">
                         <Label Content="SocialNumber:" VerticalAlignment="Center" Margin="20 0 0 0" FontWeight="Normal" FontFamily="Georgia" FontSize="16"/>
-                        <TextBox x:Name="txtbox_UserName" Width="150" VerticalAlignment="Center" TextInput="txtbox_UserInfo_TextInput" Margin="0 0 20 0"/>
+                        <TextBox x:Name="txtbox_UserName" Width="150" VerticalAlignment="Center" Margin="0 0 20 0"/>
                     </StackPanel>
                     <StackPanel Margin="0 15 0 0" Orientation="Horizontal">
                         <Label Content="Password:" VerticalAlignment="Center" Margin="20 0 7 0" FontSize="16" FontFamily="Georgia"/>
-                        <TextBox x:Name="txtbox_Password" Width="150" VerticalAlignment="Center" TextInput="txtbox_UserInfo_TextInput"/>
+                        <TextBox x:Name="txtbox_Password" Width="150" VerticalAlignment="Center"/>
                     </StackPanel>
                    
                     <Button x:Name="login_btn" Content="Login Account" Width="180" Margin="0 20 0 0 " Background="#FFA6C8C6" FontFamily="Georgia" FontWeight="Normal" Height="25" Click="login_btn_Click"/>

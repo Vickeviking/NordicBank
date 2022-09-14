@@ -28,3 +28,5 @@ G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net6.0-windows\Nordi
 G:\My Drive\Programming\WPF\NordicBank\NordicBank\bin\Debug\net6.0-windows\ClassLibrary1.dll
 G:\My Drive\Programming\WPF\NordicBank\NordicBank\bin\Debug\net6.0-windows\ClassLibrary1.pdb
 G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net6.0-windows\NordicBank.csproj.CopyComplete
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net6.0-windows\windows\User.g.cs
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net6.0-windows\windows\User.baml

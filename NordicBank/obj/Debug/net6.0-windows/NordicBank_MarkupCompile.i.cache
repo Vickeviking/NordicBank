@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 G:\My Drive\Programming\WPF\NordicBank\NordicBank\App.xaml
-41860189449
+550838153
 
-8771240769
+91565239170
 195-295026077
-MainWindow.xaml;windows\Account.xaml;windows\CreateAccount.xaml;windows\Loggin.xaml;
+MainWindow.xaml;windows\Account.xaml;windows\CreateAccount.xaml;windows\Loggin.xaml;windows\User.xaml;
 
 True
 

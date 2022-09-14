@@ -24,11 +24,8 @@ namespace NordicBank.windows
             InitializeComponent();
         }
 
-
-        private void txtbox_UserInfo_TextInput(object sender, TextCompositionEventArgs e) //user info
-        {
-
-        }
+        string password = "";
+        string socialNumber = "";
 
         private void createAccount_MouseDoubleClick(object sender, MouseButtonEventArgs e) //link to create an account
         {
@@ -40,6 +37,32 @@ namespace NordicBank.windows
         private void login_btn_Click(object sender, RoutedEventArgs e) //loggin
         {
 
+            password = txtbox_Password.Text;
+            socialNumber = txtbox_UserName.Text;
+
+            bool match = false; 
+            List<ClassLibrary1.User> users = ClassLibrary1.Bank.getUsers();
+
+            foreach (ClassLibrary1.User u in users)
+            { 
+                if(u.Password == password && u.socialNumber == socialNumber)
+                {
+                    match = true;
+                    ClassLibrary1.Bank.setUserIndex(u);
+                }
+            }
+
+            if (match)
+            {
+                //login 
+                windows.User user = new windows.User();
+                this.Close();
+                user.Show();
+            }
+            else
+            {
+                error_msg.Content = "Does not match any user";
+            }
         }
     }
 }

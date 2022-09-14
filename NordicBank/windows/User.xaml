@@ -1,0 +1,64 @@
+﻿<Window x:Class="NordicBank.windows.User"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NordicBank.windows"
+        mc:Ignorable="d"
+        Title="User" Height="450" Width="800" 
+        WindowStartupLocation="CenterScreen"
+        Background="#FFA6C8C6"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.5*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="UserName" Content="UserName" HorizontalAlignment="Left" Margin="10" FontFamily="Georgia" FontSize="16"/>
+        <Label x:Name="Settings" Content="Settings" HorizontalAlignment="Center" Margin="90 10 0 0" FontFamily="Georgia" FontSize="14"/>
+        <Label x:Name="Logout" Content="Logout" Grid.Column="5" HorizontalAlignment="Center" Margin="10" FontFamily="Georgia" FontSize="16"/>
+        <StackPanel Grid.Row="1" Grid.RowSpan="4" Background="#FF92C8C8">
+            <Label Content="Accounts: " Margin="10 0 0 0"/>
+        </StackPanel>
+        <Rectangle HorizontalAlignment="Center" Height="347" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="185" Grid.RowSpan="4"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="10,30,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="155"/>
+        <Rectangle Grid.Column="1" Grid.ColumnSpan="5"  HorizontalAlignment="Center" Height="347" Grid.RowSpan="4" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="616"/>
+        <StackPanel Grid.Row="2" Grid.RowSpan="3" Grid.Column="0">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="Account1" Content="Account" HorizontalAlignment="left" Margin="10" />
+                <Button x:Name="Account1_btn" Content="Display" Margin="30 0 0 0" Height="20" Width="60" Background="#FFAFA0A0" FontStyle="Normal"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="Account2" Content="Account" HorizontalAlignment="left" Margin="10" />
+                <Button x:Name="Account2_btn" Content="Display" Margin="30 0 0 0" Height="20" Width="60" Background="#FFAFA0A0" FontStyle="Normal"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="Account3" Content="Account" HorizontalAlignment="left" Margin="10" />
+                <Button x:Name="Account3_btn" Content="Display" Margin="30 0 0 0" Height="20" Width="60" Background="#FFAFA0A0" FontStyle="Normal"/>
+            </StackPanel>
+        </StackPanel>
+            
+        <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5" Orientation="Horizontal">
+            <Label Content="Open New Account"  Margin="20 10 20 0" FontSize="14" FontFamily="Georgia"/>
+            <Label Content="Open Transactions"  Margin="20 10 20 0" FontSize="14" FontFamily="Georgia" />
+            <Label Content="Manage Accounts"  Margin="20 10 20 0" FontSize="14" FontFamily="Georgia" />
+            <Label Content="Card Settings"  Margin="20 10 20 0" FontFamily="Georgia" FontSize="14" />
+        </StackPanel>
+        <Image Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="148" Margin="113,14,0,0" Grid.RowSpan="2" Grid.Row="2" VerticalAlignment="Top" Width="246" Source="/windows/NordicBank.gif"/>
+        <StackPanel Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Label x:Name="Balance" Content="Balance: " Margin="20" FontSize="16" Foreground="Black" FontWeight="Normal"/>
+        </StackPanel>
+    </Grid>
+</Window>
