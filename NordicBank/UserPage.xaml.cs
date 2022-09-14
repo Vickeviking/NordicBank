@@ -12,21 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace NordicBank.windows
+namespace NordicBank
 {
     /// <summary>
-    /// Interaction logic for User.xaml
+    /// Interaction logic for UserPage.xaml
     /// </summary>
-    public partial class User : Window
+    public partial class UserPage : Window
     {
-        public User()
+        public UserPage()
         {
             InitializeComponent();
-            UpdateCard();
-        }
-
-        public void UpdateCard()
-        { 
             Balance.Content = ClassLibrary1.Bank.getUsers()[ClassLibrary1.Bank.getUserIndex()].Getbankkonton()[0].balance.ToString();
         }
     }

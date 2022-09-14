@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="UserPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="windows\Account.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -16,12 +19,12 @@
     <Compile Update="windows\Loggin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="windows\User.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="windows\Account.xaml">
@@ -31,9 +34,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="windows\Loggin.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="windows\User.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

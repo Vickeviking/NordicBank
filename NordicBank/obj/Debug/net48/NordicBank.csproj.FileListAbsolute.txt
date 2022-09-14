@@ -1,0 +1,10 @@
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\NordicBank.csproj.AssemblyReference.cache
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\NordicBank.csproj.SuggestedBindingRedirects.cache
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\MainWindow.g.cs
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\UserPage.g.cs
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\windows\Account.g.cs
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\windows\CreateAccount.g.cs
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\windows\Loggin.g.cs
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\App.g.cs
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\NordicBank_MarkupCompile.cache
+G:\My Drive\Programming\WPF\NordicBank\NordicBank\obj\Debug\net48\NordicBank_MarkupCompile.lref

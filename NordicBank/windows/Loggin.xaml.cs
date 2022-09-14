@@ -57,7 +57,7 @@ namespace NordicBank.windows
                 //login  
                 ClassLibrary1.BankAccount BankKonto = new ClassLibrary1.BankAccount(5000);
                 ClassLibrary1.Bank.getUsers()[ClassLibrary1.Bank.getUserIndex()].AddBankAccount(BankKonto);
-                windows.User user = new windows.User();
+                UserPage user = new UserPage();
                 this.Close();
                 user.Show();
             }

@@ -28,7 +28,7 @@ namespace NordicBank
             this.Hide();
             loginWindow.Show();
 
-        }
+        }    
 
 
     }

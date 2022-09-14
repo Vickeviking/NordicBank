@@ -10,6 +10,11 @@
       "ProjectGuid": "159be999-e129-43f5-b2b2-b04346283bbd",
       "DisplayName": "ClassLibrary1",
       "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 2
