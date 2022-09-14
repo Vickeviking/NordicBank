@@ -63,6 +63,10 @@ namespace ClassLibrary1
             }
         }
 
+        public List<BankAccount> Getbankkonton()
+        { 
+        return bankAccounts;
+        }
 
     }
 }

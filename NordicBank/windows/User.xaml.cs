@@ -22,6 +22,12 @@ namespace NordicBank.windows
         public User()
         {
             InitializeComponent();
+            UpdateCard();
+        }
+
+        public void UpdateCard()
+        { 
+            Balance.Content = ClassLibrary1.Bank.getUsers()[ClassLibrary1.Bank.getUserIndex()].Getbankkonton()[0].balance.ToString();
         }
     }
 }

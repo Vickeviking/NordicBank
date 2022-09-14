@@ -35,6 +35,9 @@ namespace ClassLibrary1
             }
         }
 
+        public static int getUserIndex()
+            { return userIndex; }
+
         public static void removeUser(User user)
         { 
             users.Remove(user);
